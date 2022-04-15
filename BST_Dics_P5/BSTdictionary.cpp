@@ -143,7 +143,7 @@ int main(){
 	cout<<"\n3. Display the dictionary in descending order";
 	cout<<"\n4. update a word";
 	cout<<"\n5. Search";
-    cout<<"\n6. Exit";
+    	cout<<"\n6. Exit";
 	cout<<"\n\nEnter your choice: ";
 	cin>>choice;
 
