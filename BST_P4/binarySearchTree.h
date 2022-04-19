@@ -180,10 +180,17 @@ int Btree:: height(Bnode *Root){
 		}
 
 
-// int Btree:: nodeinlongestpath(Bnode *Root){
- 
+/* void Btree:: Mirror(Bnode *Root){
+ 	Bnode *temp;
+	if(Root!=NULL){
+		temp=Root->left;
+		Root->left=Root->right;
+		Root->right=temp;
+		Mirror(Root->left);
+		Mirror(Root->right);
+	}
 
-// }
+*/ }
 
 
 
